@@ -5,7 +5,7 @@ import {AppComponent, SimpleTextEditorComponent} from './app.component';
 import {BrowserAnimationsModule, NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 import {FormsModule} from '@angular/forms';
-import {NgxTemplateModule} from 'ngx-template';
+import {NgxTemplateModule} from '@fgilde/ngx-template';
 import {MatCheckbox, MatCheckboxModule} from '@angular/material/checkbox';
 import {MatSlider, MatSliderModule} from '@angular/material/slider';
 import {MatDatepicker, MatDatepickerModule} from '@angular/material/datepicker';

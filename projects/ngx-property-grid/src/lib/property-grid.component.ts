@@ -7,7 +7,7 @@ import {
   TemplateRef, Type, ViewChildren
 } from '@angular/core';
 import {animate, state, style, transition, trigger} from '@angular/animations';
-import {NgxTemplate} from 'ngx-template';
+import {NgxTemplate} from '@fgilde/ngx-template';
 import {PropertyItemMeta} from './property-item-meta';
 import {PropertyValue} from './property-value';
 

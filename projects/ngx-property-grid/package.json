@@ -1,30 +1,31 @@
 {
-  "name": "ngx-property-grid",
+  "name": "@fgilde/ngx-property-grid",
   "description": "A small and simple property grid in angular to view/edit POJOs, excellent if you have a \"settings\" object you want to give the user to edit.",
   "version": "9.0.6",
   "private": false,
   "authors": [
+    "fgilde",
     "mokeyish"
   ],
   "keywords": [
     "angular",
     "property grid",
     "ngx",
-    "angular9"
+    "angular17"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mokeyish/ngx-property-grid.git"
+    "url": "git+https://github.com/fgilde/ngx-property-grid.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "peerDependencies": {
-    "@angular/common": "^9.1.4",
-    "@angular/core": "^9.1.4"
+    "@angular/common": "^17.0.6",
+    "@angular/core": "^17.0.6"
   },
   "dependencies": {
-    "ngx-template": "^1.1.1"
+    "@fgilde/ngx-template": "^1.1.1"
   }
 }
