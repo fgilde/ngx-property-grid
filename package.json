@@ -30,7 +30,7 @@
     "test": "ng test",
     "lint": "ng lint --fix",
     "e2e": "ng e2e",
-    "publish-npm": "npm run build-lib && npm publish dist/ngx-property-grid",
+    "publish-npm": "npm run build-lib && npm publish dist/ngx-property-grid --access public",
     "doc:build": "./node_modules/.bin/compodoc -p projects/ngx-property-grid/tsconfig.lib.json -d ./docs && ng build --aot --output-path docs/demo --base-href /demo/",
     "doc:buildandserve": "./node_modules/.bin/compodoc -p projects/ngx-property-grid/tsconfig.lib.json -d ./docs -s"
   },

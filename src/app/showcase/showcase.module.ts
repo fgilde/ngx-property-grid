@@ -13,18 +13,19 @@ import {MatSlideToggle, MatSlideToggleModule} from '@angular/material/slide-togg
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatInputModule} from '@angular/material/input';
-import {NgxJsonViewModule} from 'ng-json-view';
+//import {NgxJsonViewModule} from 'ng-json-view';
 import {PropertyGridModule} from 'ngx-property-grid';
 
 @NgModule({
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
     imports: [
         BrowserModule, FormsModule, NoopAnimationsModule, PropertyGridModule, NgxTemplateModule,
-        NgxJsonViewModule, BrowserAnimationsModule,
+        //NgxJsonViewModule,
+        BrowserAnimationsModule,
         MatCheckboxModule, MatSliderModule, MatDatepickerModule, MatSlideToggleModule,
         MatNativeDateModule, MatRadioModule, MatInputModule
     ],
-    entryComponents: [SimpleTextEditorComponent, MatCheckbox, MatSlider, MatDatepicker, MatSlideToggle],
+   // entryComponents: [SimpleTextEditorComponent, MatCheckbox, MatSlider, MatDatepicker, MatSlideToggle],
     declarations: [
         AppComponent, SimpleTextEditorComponent
     ],
